@@ -7,11 +7,11 @@
 ## About The Project
 This repository, "ImgClassTF" focuses on exploring the effectiveness of transfer learning in image classification tasks. By leveraging pre-trained models, specifically VGG networks, the goal was to utilize pretrained ConvNet models using transfer learning, which significantly improved the classification accuracy with minimal computational resources compared to training models from scratch. Though the accuracy achieved was 53.09% 
 
-In my study, I used the VGG model with pretrained weights on [IMAGENET](https://www.image-net.org) and used a modified version of it to train on [CINIC-10](https://arxiv.org/abs/1810.03505). I experimented with various configurations of the VGG model to classify images across multiple categories. The findings, detailed in my research [paper]() and [code](), highlight the power of transfer learning in achieving high accuracy rates in image classification tasks.
+In my study, I used the VGG model with pretrained weights on [IMAGENET](https://www.image-net.org) and used a modified version of it to train on [CINIC-10](https://arxiv.org/abs/1810.03505). I experimented with various configurations of the VGG model to classify images across multiple categories. The findings, detailed in my research [paper](https://github.com/aditya-524/ImageClass_TL/blob/main/Image%20Classification%20with%20Transfer%20Learning.pdf) and [code](https://github.com/aditya-524/ImageClass_TL/blob/main/VGG_4_models.ipynb).
 
  Below are some of the results from the paper.
 <p align="center">
-  <img src="RP_Docs/model_4_combined_training_curves.png" alt="Training curves" width="80%" />
+  <img src="RP_Docs/Figures/model_4_combined_training_curves.png" alt="Training curves" width="80%" />
 </p>
 
 <!-- OVERVIEW -->
@@ -23,7 +23,7 @@ In my study, I used the VGG model with pretrained weights on [IMAGENET](https://
 <!-- FLOWCHART -->
 ## General Flowchart for the project 
 <p align="center">
-  <img src="RP_Docs/CNN.png" width="400">
+  <img src="RP_Docs/Figures/CNN.png" width="400">
 </p>
 
 <!-- REIMPLEMENTATION -->
@@ -31,16 +31,16 @@ In my study, I used the VGG model with pretrained weights on [IMAGENET](https://
 The project is implemented using a jupyter notebook, so its fairly straightforward to download it directly to retest. [Notebook]()
 I used 4 versions of the models 
 1. VGG16 model with untrainable Convolutional layers and replacing the classifier with a flatten layer, dense layer with Relu activation and output layer with Softmax activation function
-<img src="RP_Docs/m1.png" width="400">
+<img src="RP_Docs/Figures/m1.png" width="400">
 
 2. The configuration is the same as model 1, in addition to that we introduce data augmentation for training the model
-<img src="RP_Docs/m2.png" width="400">
+<img src="RP_Docs/Figures/m2.png" width="400">
 
 3. The configuration is the same as model 1, in addition to that we introduce data augmentation for training and regularization methods such as Batch Normalization and Dropout Layer
-<img src="RP_Docs/m3.png" width="400">
+<img src="RP_Docs/Figures/m3.png" width="400">
 
 4. VGG16 model with fully trainable weights and replacing the classifier with a flatten layer, dense layer with Relu activation and output layer with Softmax activation function.
-<img src="RP_Docs/m4.png" width="400">
+<img src="RP_Docs/Figures/m4.png" width="400">
 
 
 <!-- Dependencies -->
@@ -60,7 +60,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- Authors -->
 ## Authors
-Project Link:[Project]()
+Project Link:[Project](https://github.com/aditya-524/ImageClass_TL)
 <br>~~Kaggle Notebook:[]()~~ 
 <br>~~Collab Notebook:[]()~~ 
 
