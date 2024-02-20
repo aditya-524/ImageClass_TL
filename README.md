@@ -5,7 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-This repository, "ImgClassTF" focuses on exploring the effectiveness of transfer learning in image classification tasks. By leveraging pre-trained models, specifically VGG networks, the goal was to utilize pretrained ConvNet models using transfer learning, which significantly improved the classification accuracy with minimal computational resources compared to training models from scratch. Though the accuracy achieved was 53.09% 
+This repository, focuses on exploring the effectiveness of transfer learning in image classification tasks. By leveraging pre-trained models, specifically VGG networks, the goal was to utilize pretrained ConvNet models using transfer learning, which significantly improved the classification accuracy with minimal computational resources compared to training models from scratch. Though the accuracy achieved was 53.09% 
 
 In my study, I used the VGG model with pretrained weights on [IMAGENET](https://www.image-net.org) and used a modified version of it to train on [CINIC-10](https://arxiv.org/abs/1810.03505). I experimented with various configurations of the VGG model to classify images across multiple categories. The findings, detailed in my research [paper](https://github.com/aditya-524/ImageClass_TL/blob/main/Image%20Classification%20with%20Transfer%20Learning.pdf) and [code](https://github.com/aditya-524/ImageClass_TL/blob/main/VGG_4_models.ipynb).
 
