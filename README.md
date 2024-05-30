@@ -73,5 +73,4 @@ Project Link:[Project](https://github.com/aditya-524/ImageClass_TL)
 </picture>
 
 > [!NOTE]
-> This is part of the Assignment of COMP SCI 7318 - Deep Learning Fundamentals, University of adelaide.
 > I did not conduct hyperparameter tuning of the model, which is an essential step for achieving good accuracy.
